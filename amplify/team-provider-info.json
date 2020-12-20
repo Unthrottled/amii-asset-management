@@ -17,5 +17,27 @@
       },
       "hosting": {}
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amiiassetmanagement-prod-63206-authRole",
+      "UnauthRoleArn": "arn:aws:iam::627099639403:role/amplify-amiiassetmanagement-prod-63206-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::627099639403:role/amplify-amiiassetmanagement-prod-63206-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amiiassetmanagement-prod-63206-deployment",
+      "UnauthRoleName": "amplify-amiiassetmanagement-prod-63206-unauthRole",
+      "StackName": "amplify-amiiassetmanagement-prod-63206",
+      "StackId": "arn:aws:cloudformation:us-west-2:627099639403:stack/amplify-amiiassetmanagement-prod-63206/60216480-42bf-11eb-8a3c-0acee0ebb091",
+      "AmplifyAppId": "d1dicp3pyq3n7c"
+    },
+    "categories": {
+      "auth": {
+        "cognito8be6495e": {}
+      },
+      "function": {
+        "amiipublicassets": {},
+        "amiiassetadminapi": {}
+      }
+    }
   }
 }
