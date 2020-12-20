@@ -54,5 +54,5 @@
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "dependsOn": [],
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://amii-assets-nonprod.unthrottled.io/oauth/callback/\",\"http://localhost:3000/oauth/callback/\"],\"LogoutURLs\":[\"https://amii-assets-nonprod.unthrottled.io/oauth/logout/\",\"http://localhost:3000/oauth/logout/\"]}"
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://amii-assets.unthrottled.io/oauth/callback/\",\"http://localhost:3000/oauth/callback/\"],\"LogoutURLs\":[\"https://amii-assets.unthrottled.io/oauth/logout/\",\"http://localhost:3000/oauth/logout/\"]}"
 }
